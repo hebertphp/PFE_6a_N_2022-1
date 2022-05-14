@@ -1,5 +1,5 @@
 var i;
-i=0; //valor inicial
+i=8; //valor inicial
 while (i <=10) {//condição
     document.write(i + " ");
     //i++;//contador
