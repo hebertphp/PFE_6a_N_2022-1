@@ -5,4 +5,7 @@ n="Astrogildo";
 n="Pafuncia";
 //document.write(n);
 nome=["Adalberto","Belarmina","Astrogildo","Pafuncia"];
-document.write(nome);
+//document.write(nome);
+document.getElementById("dv1").innerHTML=n;
+document.querySelector(".teste").innerHTML=nome;
+document.querySelector("h2").innerHTML=n;
