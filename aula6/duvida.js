@@ -9,4 +9,4 @@ document.querySelector("h2").innerHTML+=nome[2];
 
 class_teste[3].innerHTML="Será que mudou? "+nome.length;
 class_teste[2].innerHTML="<img src='img/floresta.jpg'>";
-class_teste[1].innerHTML="<img src='img/floresta.jpg'>";
+class_teste[1].innerHTML="<img src='./img/floresta.jpg'>";
