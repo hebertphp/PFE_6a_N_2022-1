@@ -12,8 +12,11 @@ var m = [[1,2,3]   ,   [4,5,6]   ,   [7,8,9],[50,70,80,90],["SP","RJ"],[100,200,
 id_dv.innerHTML=x.length;
 
 class_teste.innerHTML=m[5][3][1];
+id_login.value=m[3].length;
+// id_login.value=m[1][0];
 /*
 mostrar os dois comandos para mostrar o valor 4,
 baseados na var m, direcionar para id_login
-
+id_login.value=m[1][0]
+id_login.value=m[3].length;
 */
