@@ -11,3 +11,4 @@ valores.shift();
 class_teste.innerHTML=valores;
 valores.pop();
 // document.write(valores);
+id_login.value=valores;
