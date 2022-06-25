@@ -5,7 +5,7 @@ function mostrar(){
     const op=document.querySelector("#op");
 
     result.innerHTML=num1.value+"<br>"+op.value+"<br>"+num2.value+"<br>------<br>";
-    
+    result.innerHTML+=calc(parseFloat(num1.value),parseFloat(num2.value),op.value);
 }
 
 function calc(numero1,numero2,operador){
