@@ -1,7 +1,11 @@
 function mostrar(){
     const result=document.querySelector("#result");
+    const num1=document.querySelector("#num1");
+    const num2=document.querySelector("#num2");
+    const op=document.querySelector("#op");
 
-    result.innerHTML="Resultado:";
+    result.innerHTML=num1.value+"<br>"+op.value+"<br>"+num2.value+"<br>------<br>";
+    
 }
 
 function calc(numero1,numero2,operador){
