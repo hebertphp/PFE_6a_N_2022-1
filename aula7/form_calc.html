@@ -5,14 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form Calc</title>
+    <script src="calc.js"></script>
 </head>
 <body>
     <form>
     Numero1 <input type="number" name="num1" id="num1"><br>
-    Operador <br>
-    Numero2 <input type="number" name="num2" id="num2">
+    Operador <select name="op" id="op">
+        <option value="+">+</option>
+        <option value="-">-</option>
+        <option value="*">*</option>
+        <option value="/">/</option>
+    </select><br>
+    Numero2 <input type="number" name="num2" id="num2"><br>
+    <button type="button" onclick="mostrar()">Calcular</button>
     </form>    
     <h2>Resultado</h2>
+
     <div id="result"></div>
 </body>
 </html>
